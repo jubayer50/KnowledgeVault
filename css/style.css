@@ -91,7 +91,7 @@ img {
 }
 
 #hero-section .hero-container h1 {
-  width: 770px;
+  max-width: 770px;
   font-size: 72px;
   font-weight: bold;
   line-height: 84px;
@@ -166,4 +166,51 @@ img {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 16px;
+}
+
+#second-brain-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#second-brain-section .second-brain-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+#second-brain-section .second-brain-container .brain-content .solution {
+  color: #469165;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+#second-brain-section .second-brain-container .brain-content h2 {
+  max-width: 517px;
+  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+#second-brain-section .second-brain-container .brain-content p {
+  max-width: 520px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+#second-brain-section .second-brain-container .brain-content ul {
+  list-style-position: inside;
+}
+
+#second-brain-section .second-brain-container .brain-content li {
+  color: #001931;
+  font-weight: 500;
+  margin-bottom: 16px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
