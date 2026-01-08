@@ -20,6 +20,9 @@
   border: none;
 }
 
+img {
+}
+
 /* main cls */
 #header-section {
   padding: 16px 0;
@@ -44,4 +47,71 @@
   text-decoration: none;
   color: black;
   font-weight: 500;
+}
+
+#hero-section {
+  background-image: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero-section .hero-container {
+  padding-top: 70px;
+  padding-bottom: 134px;
+  text-align: center;
+  color: #fff;
+}
+
+#hero-section .hero-container .early-access {
+  max-width: 229px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 50px;
+  margin: 0 auto 16px;
+}
+
+#hero-section .hero-container .early-access img {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+#hero-section .hero-container .early-access p {
+  font-weight: 500;
+  color: #469165;
+}
+
+#hero-section .hero-container h1 {
+  width: 770px;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  margin: 0 auto 16px;
+  text-transform: capitalize;
+}
+
+#hero-section .hero-container h1 span {
+  color: #469165;
+}
+
+#hero-section .hero-container .sub-t {
+  width: 685px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto 32px;
+}
+
+#hero-section .hero-container .btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+#hero-section .hero-container .btns .work {
+  background: none;
+  border: 1px solid #fff;
 }
